@@ -18,49 +18,51 @@ router.post('/user_query', (req, res) => {
     let output_data = [{
  
         Id: "user",
-        Username: "01",
-        Password: "f3",
-        Name: "f4",
-        Section: "f5",
-        RoleId: "f6",
+        Username: "AA",
+        Password: "AA",
+        Name: "AA",
+        Section: "AA",
+        RoleId: "AA",
     },
     {
 
         Id: "02x",
-        Username: "01",
-        Password: "f3",
-        Name: "f4",
-        Section: "f5",
-        RoleId: "f6",
+        Username: "BB",
+        Password: "BB",
+        Name: "BB",
+        Section: "BB",
+        RoleId: "BB",
     },
     {
 
         Id: "03x",
-        Username: "01",
-        Password: "f3",
-        Name: "f4",
-        Section: "f5",
-        RoleId: "f6",
+        Username: "CC",
+        Password: "CC",
+        Name: "CC",
+        Section: "CC",
+        RoleId: "CC",
     },
     {
 
         Id: "04x",
-        Username: "01",
-        Password: "f3",
-        Name: "f4",
-        Section: "f5",
-        RoleId: "f6",
+        Username: "DD",
+        Password: "DD",
+        Name: "DD",
+        Section: "DD",
+        RoleId: "DD",
     },
     {
 
         Id: "05xxxxx",
-        Username: "01",
-        Password: "f3",
-        Name: "f4",
-        Section: "f5",
-        RoleId: "f6",
+        Username: "FF",
+        Password: "FF",
+        Name: "FF",
+        Section: "FF",
+        RoleId: "FF",
     }
     ];
+
+    
 
     // let dbinput = `[test].[dbo].[Table01]`;
     // let querystring  = `SELECT * From '${dbinput}' where [user]='${input.user}'`;
@@ -124,17 +126,17 @@ router.post('/Routine_Customer_query', (req, res) => {
 
     let output_data = [{
         Id: "Routine Customer",
-        CustId: "f1",
-        CustFull: "f1",
-        CustShort: "f2",
-        Branch: "f2",
-        Code: "f2",
-        FrequencyRequest: "f2",
-        Incharge: "f2",
-        SubLeader: "f2",
-        GL: "f2",
-        JP: "f2",
-        DMG: "f2",
+        CustId: "AA",
+        CustFull: "AA",
+        CustShort: "AA",
+        Branch: "AA",
+        Code: "AA",
+        FrequencyRequest: "AA",
+        Incharge: "AA",
+        SubLeader: "AA",
+        GL: "AA",
+        JP: "AA",
+        DMG: "AA",
    
     },
     ];
@@ -151,8 +153,8 @@ router.post('/GroupName_query', (req, res) => {
 
     let output_data = [{
         Id: "GroupName",
-        GroupId: "f1",
-        GroupName: "f2",
+        GroupId: "AA",
+        GroupName: "AA",
 
     },
     ];
@@ -169,10 +171,10 @@ router.post('/SampleType_query', (req, res) => {
 
     let output_data = [{
         Id: "SampleType",
-        GroupId: "f1",
-        GroupName: "f2",
-        SampleTypeId: "f2",
-        SampleTypeName: "f2",
+        GroupId: "AA",
+        GroupName: "AA",
+        SampleTypeId: "AA",
+        SampleTypeName: "AA",
 
     },
     ];
@@ -190,12 +192,12 @@ router.post('/SampleName_query', (req, res) => {
 
     let output_data = [{
         Id: "SampleName",
-        GroupId: "f1",
-        GroupName: "f2",
-        SampleTypeId: "f2",
-        SampleTypeName: "f2",
-        SampleId: "f2",
-        SampleName: "f2",
+        GroupId: "AA",
+        GroupName: "AA",
+        SampleTypeId: "AA",
+        SampleTypeName: "AA",
+        SampleId: "AA",
+        SampleName: "AA",
     },
     ];
     output = [{ "status": "ok","output":output_data }];
@@ -211,8 +213,8 @@ router.post('/Tank_query', (req, res) => {
 
     let output_data = [{
         Id: "Tank",
-        TankId: "f1",
-        TankName: "f2",
+        TankId: "AA",
+        TankName: "AA",
     },
     ];
     
@@ -229,8 +231,8 @@ router.post('/Instrument_query', (req, res) => {
 
     let output_data = [{
         Id: "Instrument",
-        InstrumentId: "f1",
-        InstrumentName: "f2",
+        InstrumentId: "BB",
+        InstrumentName: "BB",
     },
     ];
 
@@ -247,10 +249,10 @@ router.post('/Unit_query', (req, res) => {
 
     let output_data = [{
         Id: "Unit",
-        GroupId: "f1",
-        GroupName: "f2",
-        UnitId: "f2",
-        UnitName: "f2",
+        GroupId: "BB",
+        GroupName: "BB",
+        UnitId: "BB",
+        UnitName: "BB",
     },
     ];
     
@@ -267,22 +269,22 @@ router.post('/item_query', (req, res) => {
 
     let output_data = [{
         Id: "item",
-        InstrumentId: "f1",
-        InstrumentName: "f2",
-        ItemId: "f2",
-        ItemName: "f2",
-        Cost: "f2",
-        Price: "f2",
-        Unit1: "f2",
-        Unit2: "f2",
-        Unit3: "f2",
-        Unit4: "f2",
-        Unit5: "f2",
-        Unit6: "f2",
-        Unit7: "f2",
-        Unit8: "f2",
-        Unit9: "f2",
-        Unit10: "f2",
+        InstrumentId: "AA",
+        InstrumentName: "AA",
+        ItemId: "AA",
+        ItemName: "AA",
+        Cost: "AA",
+        Price: "AA",
+        Unit1: "AA",
+        Unit2: "AA",
+        Unit3: "AA",
+        Unit4: "AA",
+        Unit5: "BB",
+        Unit6: "BB",
+        Unit7: "BB",
+        Unit8: "BB",
+        Unit9: "BB",
+        Unit10: "BB",
     },
     ];
     
@@ -299,14 +301,14 @@ router.post('/ItemGroup_query', (req, res) => {
 
     let output_data = [{
         Id: "ItemGroup",
-        GroupId: "f1",
-        GroupName: "f2",
-        SampleTypeId: "f2",
-        SampleTypeName: "f2",
-        InstrumentId: "f2",
-        InsrumentName: "f2",
-        ItemId: "f2",
-        ItemName: "f2",
+        GroupId: "BB",
+        GroupName: "BB",
+        SampleTypeId: "BB",
+        SampleTypeName: "BB",
+        InstrumentId: "BB",
+        InsrumentName: "BB",
+        ItemId: "BB",
+        ItemName: "BB",
 
     },
     ];
