@@ -7,6 +7,7 @@ router.use(require("./flow/003/flow003"))
 router.use(require("./flow/004/flow004"))
 router.use(require("./flow/005/flow005"))
 router.use(require("./flow/006/flow006"))
+router.use(require("./flow/007/flow007"))
 router.use(require("./flow/testflow/testflow"))
 
 module.exports = router;
