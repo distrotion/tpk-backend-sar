@@ -19,9 +19,9 @@ router.post('/report_list', async(req, res) => {
     let output_data = [{
         PO: "A00000001",
         CP: "00000001",
-        data01: "f1",
+        data01: "f1234567890",
         data02: "f1",
-        data03: "f1",
+        data03: "TPK-SAR-STD",
         data04: "f1",
 
     },
@@ -49,7 +49,7 @@ router.post('/report_setup_list', async(req, res) => {
         Customer: "f1",
         Materail: "f1",
         Branch: "RAYONG",
-        ReportType: "TPK-SAR-STD",
+        ReportType: "TPK-SAR-Condition01",
     },
     ];
 

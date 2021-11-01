@@ -452,6 +452,183 @@ router.post('/set_12_4call', async(req, res) => {
     res.json(output)
 });
 
+router.post('/set_01_1_MRcall', async(req, res) => {
+    console.log("-------- set_01_1_MRcall --------");
+    console.log(req.body);
+    input = req.body
+    //------------------------>>>
+
+    let output_data = [{
+        Id: "R-MasterCustomer",
+        CustId: "AA",
+        CustFull: "AA",
+        CustShort:"AA",
+        Branch: "AA",
+        Code: "AA",
+        FrequencyRequest: "AA",
+        Incharge: "AA",
+        SubLeader: "AA",
+        GL: "AA",
+        JP: "AA",
+        DMG: "AA",
+    },
+    {
+        Id: "R-MasterCustomer",
+        CustId: "BB",
+        CustFull: "BB",
+        CustShort:"BB",
+        Branch: "BB",
+        Code: "BB",
+        FrequencyRequest: "BB",
+        Incharge: "BB",
+        SubLeader: "BB",
+        GL: "BB",
+        JP: "BB",
+        DMG: "BB",
+    },
+    
+    ];
+
+
+
+    let output_data_r = {'data01':'','data02':'','data03':'','data04':'','data05':'','data06':'','data07':''};
+
+    for (let i = 0; i < output_data.length; i++) {
+        if(output_data[i]['CustFull']==input['Qurey']){
+            output_data_r['data01'] = output_data[i]['Id'];
+            output_data_r['data02'] = output_data[i]['CustId'];
+            output_data_r['data03'] = output_data[i]['CustFull'];
+            output_data_r['data04'] = output_data[i]['CustShort'];
+            output_data_r['data05'] = output_data[i]['Branch'];
+            output_data_r['data06'] = output_data[i]['Code'];
+            output_data_r['data07'] = output_data[i]['FrequencyRequest'];
+            break
+        }   
+    }
+    
+    //------------------------<<<
+    output = [{ "status": "ok","output":output_data_r}];
+    res.json(output)
+});
+
+router.post('/set_02_1_MRcall', async(req, res) => {
+    console.log("-------- set_01_1_MRcall --------");
+    console.log(req.body);
+    input = req.body
+    //------------------------>>>
+
+    let output_data = [{
+        Id: "",
+        CustId: "AA",
+        CustFull: "AA",
+        CustShort:"AA",
+        Branch: "AA",
+        Code: "AA",
+        FrequencyRequest: "AA",
+        Incharge: "AA",
+        SubLeader: "AA",
+        GL: "AA",
+        JP: "AA",
+        DMG: "AA",
+    },
+    {
+        Id: "",
+        CustId: "BB",
+        CustFull: "BB",
+        CustShort:"BB",
+        Branch: "BB",
+        Code: "BB",
+        FrequencyRequest: "BB",
+        Incharge: "BB",
+        SubLeader: "BB",
+        GL: "BB",
+        JP: "BB",
+        DMG: "BB",
+    },
+    
+    ];
+
+
+
+    let output_data_r = {'data01':'','data02':'','data03':'','data04':'','data05':'','data06':'','data07':''};
+
+    for (let i = 0; i < output_data.length; i++) {
+        if(output_data[i]['CustFull']==input['Qurey']){
+            output_data_r['data01'] = output_data[i]['Id'];
+            output_data_r['data02'] = output_data[i]['CustId'];
+            output_data_r['data03'] = output_data[i]['CustFull'];
+            output_data_r['data04'] = output_data[i]['CustShort'];
+            output_data_r['data05'] = output_data[i]['Branch'];
+            output_data_r['data06'] = output_data[i]['Code'];
+            output_data_r['data07'] = output_data[i]['FrequencyRequest'];
+            break
+        }   
+    }
+    
+    //------------------------<<<
+    output = [{ "status": "ok","output":output_data_r}];
+    res.json(output)
+});
+
+router.post('/set_03_1_MRcall', async(req, res) => {
+    console.log("-------- set_01_1_MRcall --------");
+    console.log(req.body);
+    input = req.body
+    //------------------------>>>
+
+    let output_data = [{
+        Id: "",
+        CustId: "AA",
+        CustFull: "AA",
+        CustShort:"AA",
+        Branch: "AA",
+        Code: "AA",
+        FrequencyRequest: "AA",
+        Incharge: "AA",
+        SubLeader: "AA",
+        GL: "AA",
+        JP: "AA",
+        DMG: "AA",
+    },
+    {
+        Id: "",
+        CustId: "BB",
+        CustFull: "BB",
+        CustShort:"BB",
+        Branch: "BB",
+        Code: "BB",
+        FrequencyRequest: "BB",
+        Incharge: "BB",
+        SubLeader: "BB",
+        GL: "BB",
+        JP: "BB",
+        DMG: "BB",
+    },
+    
+    ];
+
+
+
+    let output_data_r = {'data01':'','data02':'','data03':'','data04':'','data05':'','data06':'','data07':''};
+
+    for (let i = 0; i < output_data.length; i++) {
+        if(output_data[i]['CustFull']==input['Qurey']){
+            output_data_r['data01'] = output_data[i]['Id'];
+            output_data_r['data02'] = output_data[i]['CustId'];
+            output_data_r['data03'] = output_data[i]['CustFull'];
+            output_data_r['data04'] = output_data[i]['CustShort'];
+            output_data_r['data05'] = output_data[i]['Branch'];
+            output_data_r['data06'] = output_data[i]['Code'];
+            output_data_r['data07'] = output_data[i]['FrequencyRequest'];
+            break
+        }   
+    }
+    
+    //------------------------<<<
+    output = [{ "status": "ok","output":output_data_r}];
+    res.json(output)
+});
+
 
 module.exports = router;
 

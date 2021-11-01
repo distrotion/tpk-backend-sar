@@ -79,6 +79,31 @@ router.post('/set_12', (req, res) => {
 })
 
 
+router.post('/set_02_MR', (req, res) => {
+    console.log("-------- set_02_MR --------");
+    console.log(req.body);
+    //------------------------>>>
+    
+
+    //------------------------<<<
+    // output = [{ "status": "ok","output":{ "list01": ["","A1-4","A2-4","A3-4"],"list02": ["","B1-4","B2-4","B3-4"],"list03": ["","C1-4","C2-4","C3-4"]}}];
+    output = [{ "status": "ok","output":{ "list01": ["","AA","BB","CC","DD","FF"],"list02": ["","AA","BB","CC","DD","FF"],"list03": ["","AA","BB","CC","DD","FF"],"list04": ["","AA","BB","CC","DD","FF"],"list05": ["","AA","BB","CC","DD","FF"],"list06": ["","AA","BB","CC","DD","FF"],"list07": ["","AA","BB","CC","DD","FF"],"list08": ["","AA","BB","CC","DD","FF"],"list09": ["","AA","BB","CC","DD","FF"],"list10": ["","AA","BB","CC","DD","FF"]}}];
+    res.json(output)
+})
+
+router.post('/set_03_MR', (req, res) => {
+    console.log("-------- set_03_MR --------");
+    console.log(req.body);
+    //------------------------>>>
+    
+
+    //------------------------<<<
+    // output = [{ "status": "ok","output":{ "list01": ["","A1-4","A2-4","A3-4"],"list02": ["","B1-4","B2-4","B3-4"],"list03": ["","C1-4","C2-4","C3-4"]}}];
+    output = [{ "status": "ok","output":{ "list01": ["","AA","BB","CC","DD","FF"],"list02": ["","AA","BB","CC","DD","FF"],"list03": ["","AA","BB","CC","DD","FF"],"list04": ["","AA","BB","CC","DD","FF"],"list05": ["","AA","BB","CC","DD","FF"],"list06": ["","AA","BB","CC","DD","FF"],"list07": ["","AA","BB","CC","DD","FF"],"list08": ["","AA","BB","CC","DD","FF"],"list09": ["","AA","BB","CC","DD","FF"],"list10": ["","AA","BB","CC","DD","FF"]}}];
+    res.json(output)
+})
+
+
 
 module.exports = router;
 
